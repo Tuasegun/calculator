@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Adding soft</title>
+  </head>
+  <body>
+      <form class="input-values">
+        <div class="img-box">
+        <img src="undraw_Calculator_0evy.svg" alt="img" />
+        </div>
+        <div class="text-box">
+        <h1>Olodo Helper</h1>
+        </div>
+        <label id="val1-label">Value 1</label>
+        <input type="number" id="val-1" class="val-1" />
+        <br />
+        <br />
+        <label id="val2-label">Value 2</label>
+        <input type="number" class="val-2" id="val-2" />
+        <br />
+        <br />
+        <div class="button">
+        <input type="button" value="Add" onclick="adder()" />    
+        <input type="button" value="Subtract" onclick="subtracter()" />  
+        <input type="button" value="Divide" onclick="divider()" />
+        <input type="button" value="Multiply" onclick="multiplier()" />
+        <input type="button" value="Reset" onclick="backer()" />
+    </div>
+      
+    <div id="answer-box"></div>
+    
+      </form>
+    </div>
+  </body>
+</html>

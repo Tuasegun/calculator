@@ -1,0 +1,85 @@
+body {
+  background-color: #f2f4f8;
+  border: 0;
+  align-items: center;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.125rem;
+  box-shadow: 0 1rem 1rem -0.75rem rgba(0, 0, 0, 0.125);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  overflow: hidden;
+}
+form .text-box {
+  text-align: center;
+  color: #6a5acd;
+}
+
+form img {
+  max-width: 400px;
+  margin-left: center;
+}
+input[type="number"] {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  box-sizing: border-box;
+  font-size: 1rem;
+  height: 2.5rem;
+  line-height: 1.25rem;
+  margin-top: 0.25rem;
+  height: 2.25rem;
+  margin-bottom: 1rem;
+  width: 15rem;
+  align-self: center;
+  transition: all 0.25s;
+}
+form #answer-box {
+  padding: 10px;
+  border: 1px none black;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+input[type="button"] {
+  flex-direction: ;
+  color: hsl(0, 0%, 98%);
+  background: #6a5acd;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.625rem;
+  order: 4;
+  outline: 1px dashed transparent;
+  outline-offset: 2px;
+  padding: 1;
+  text-transform: uppercase;
+  border: transparent;
+  cursor: pointer;
+}
+form .button {
+  align-items: center;
+  padding-right: 5px;
+}
+input[type="button"]:hover {
+  background: #4b0082;
+}
+@media (max-width: 992px) {
+  form img {
+    max-width: 200px;
+  }
+  form .img-box {
+    justify-self: center;
+    align-content: center;
+    padding-left: 40px;
+  }
+}
